@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+margin: 0px 0px 0px 0px;
+background-color: #222629;
+padding: 0px 0px 0px 0px;
+font-family: Poiret One monospace sans-serif;
+}

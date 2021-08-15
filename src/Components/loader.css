@@ -1,0 +1,84 @@
+#loading-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 500;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: #000000c9;
+  }
+  
+  @-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    25% {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      border-style: solid;
+      border-color: magenta;
+      border-top: none;
+      border-left: none;
+    }
+    50% {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      border-style: dashed;
+      border-color: rgb(43, 255, 35);
+      border-bottom: none;
+      border-left: none;
+    }
+    75% {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+      border-style: ridge;
+      border-color: yellow;
+      border-bottom: none;
+      border-right: none;
+    }
+    100% {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      border-style: dotted;
+      border-color: cyan;
+      border-top: none;
+      border-right: none;
+    }
+  }
+  
+  #loader {
+    margin: auto;
+    height: 15vw;
+    width: 15vw;
+    border:4px solid #fff947;
+    border-radius: 50%;
+    -webkit-animation: rotating 1.5s cubic-bezier(0, 0.63, 1, 0.37) infinite;
+    -moz-animation: rotating 1.5s cubic-bezier(0, 0.63, 1, 0.37) infinite;
+    -ms-animation: rotating 1.5s cubic-bezier(0, 0.63, 1, 0.37) infinite;
+    -o-animation: rotating 1.5s cubic-bezier(0, 0.63, 1, 0.37) infinite;
+    animation: rotating 1.5s cubic-bezier(0, 0.63, 1, 0.37) infinite;
+  }
