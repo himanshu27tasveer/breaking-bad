@@ -1,4 +1,4 @@
-# React App can be viewed at [Breaking-Bad](https://hmp-breaking-bad.netlify.app/)
+# App is hosted on [Breaking-Bad](https://hmp-breaking-bad.netlify.app/)
 
 # Getting Started with Create React App
 
