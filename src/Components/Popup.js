@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, {useState, useEffect} from "react";
-import CustomLoader from "./CumstomLoader";
+import CustomLoader from "./CustomLoader";
  
 const Popup = ({character, handleClose}) => {
 

@@ -108,6 +108,13 @@
     padding: 10px;
 }
 
+@media screen and (max-width: 450px) {
+    .list-element > p {
+        font-size: 16px;
+        padding:5px
+    }
+}
+
 .list-element:hover > p {
     border-bottom: 1px solid #be4e4e;
 }

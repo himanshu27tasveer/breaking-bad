@@ -1,6 +1,6 @@
 import './App.css';
 import './Components/loader.css';
-import CustomLoader from './Components/CumstomLoader';
+import CustomLoader from './Components/CustomLoader';
 import {useState, useEffect} from 'react';
 import axios from 'axios';
 import Header from './Components/Header';
